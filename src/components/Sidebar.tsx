@@ -8,6 +8,7 @@ import {
   BarChart3, 
   MessageSquare, 
   UserCircle,
+  CheckCircle2,
   LogOut
 } from 'lucide-react';
 import { ViewType, UserRole } from '../types';
@@ -24,6 +25,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ currentView, setCurrentView, a
     { id: 'dashboard', label: 'Dashboard', icon: LayoutDashboard, roles: ['Admin', 'Teacher'] },
     { id: 'students', label: 'Students', icon: Users, roles: ['Admin', 'Teacher'] },
     { id: 'admissions', label: 'Admissions', icon: UserPlus, roles: ['Admin'] },
+    { id: 'attendance', label: 'Attendance', icon: CheckCircle2, roles: ['Admin', 'Teacher'] },
     { id: 'schedule', label: 'Schedule', icon: Calendar, roles: ['Admin', 'Teacher', 'Student', 'Parent'] },
     { id: 'finance', label: 'Finance', icon: CreditCard, roles: ['Admin', 'Parent'] },
     { id: 'analytics', label: 'Analytics', icon: BarChart3, roles: ['Admin'] },

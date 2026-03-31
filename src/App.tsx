@@ -6,6 +6,7 @@ import { Admissions } from './components/Admissions';
 import { Scheduler } from './components/Scheduler';
 import { Finance } from './components/Finance';
 import { Portals } from './components/Portals';
+import { Attendance } from './components/Attendance';
 import { StudentDetailsModal } from './components/StudentDetailsModal';
 import { Student, UserRole, ViewType } from './types';
 import { Bell, Search, User } from 'lucide-react';
@@ -45,6 +46,8 @@ export default function App() {
         return <StudentManagement students={students} setStudents={setStudents} setSelectedStudent={setSelectedStudent} />;
       case 'admissions':
         return <Admissions />;
+      case 'attendance':
+        return <Attendance students={students} setStudents={setStudents} />;
       case 'schedule':
         return <Scheduler />;
       case 'finance':

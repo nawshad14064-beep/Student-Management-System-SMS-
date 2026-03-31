@@ -81,4 +81,4 @@ export interface Student {
 }
 
 export type UserRole = 'Admin' | 'Teacher' | 'Student' | 'Parent';
-export type ViewType = 'dashboard' | 'students' | 'admissions' | 'schedule' | 'finance' | 'analytics' | 'messages' | 'portal';
+export type ViewType = 'dashboard' | 'students' | 'admissions' | 'attendance' | 'schedule' | 'finance' | 'analytics' | 'messages' | 'portal';
