@@ -1,0 +1,5 @@
+{
+  "name": "Student Management System",
+  "description": "A modern student record management system with CRUD functionality and local storage persistence.",
+  "requestFramePermissions": []
+}
